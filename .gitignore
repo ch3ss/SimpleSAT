@@ -1,0 +1,15 @@
+# Can ignore specific files
+.DS_Store
+
+
+# Use wildcards as well
+*~
+*.swp
+*.userprefs
+*.exe
+*.mdb
+
+# Can also ignore all directories and files in a directory.
+tmp/**/* 
+SimpleSAT/bin/*
+SimpleSAT/obj/*
